@@ -1,0 +1,118 @@
+
+*{
+    font-family: 'PT Serif', serif;
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-item .dropdown .dropdown-menu a:hover{
+    background-color: white;
+    color:black;
+}
+
+.nav-item .dropdown .dropdown-menu a{
+    color: white;
+
+}
+.btn
+{
+    color:white;
+}
+
+.carousel-item img{
+    height: 400px;
+    
+}
+.carousel-slide{
+    position:absolute; 
+    z-index: -10000;
+}
+.carousel-inner
+{
+    overflow: visible !important;
+}
+
+.card{
+    display: inline-block;
+    box-shadow: 0px 8px 16px 0px grey;
+    width: 18rem;
+    margin: 10px 5px;
+} 
+.containers{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px 0px;
+    text-align: center;
+    margin:0px 20px;
+}
+
+
+.containers .title{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px 0px;
+    text-align: center;
+    
+}
+
+.card-img-top{
+    height: 230px;
+}
+.card-body p{
+    height: 50px;
+    overflow: hidden;
+}
+.col-12 .text-center img{
+
+    height:50px; 
+width: 50px; 
+margin-bottom: 10px;
+
+}
+
+.col-12 h2{
+    margin-top: 1rem;
+    font-family: 'Sansita Swashed', cursive;
+    color: darkslategray;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem 0rem 2rem;
+    margin-top: 1rem;
+}
+footer p{
+    margin:0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.socket{
+    height: 5px!important;
+    width: 100%;
+    border-top: .1px solid white;
+    
+} 
+.nav-active{
+
+    border-bottom: 3px solid green;
+    
+}
+.form-containter{
+    display: flex; 
+    width:60%;
+    align-items: center;
+    
+}
